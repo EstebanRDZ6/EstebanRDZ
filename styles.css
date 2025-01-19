@@ -290,19 +290,23 @@ h2 {
 
 .project-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
 }
 
 .project-gallery img {
     width: 100%;
+    height: auto;
     border-radius: 0.5rem;
     transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project-gallery img:hover {
     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project-link a {
@@ -361,4 +365,68 @@ h2 {
     .project-gallery {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+}
+
+/* Nuevos estilos para metodologías */
+.skills-subtitle {
+    font-size: 2rem;
+    text-align: center;
+    margin: 4rem 0 2rem;
+    color: var(--secondary-color);
+}
+
+.methodology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.methodology-item {
+    background: rgba(127, 90, 240, 0.1);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(127, 90, 240, 0.2);
+}
+
+.methodology-item:hover {
+    transform: translateY(-5px);
+    background: rgba(127, 90, 240, 0.15);
+}
+
+.methodology-item i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+/* Estilos para la sección de CV */
+.cv-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.cv-container {
+    margin-top: 2rem;
+}
+
+.download-cv {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background: var(--accent-color);
+    color: var(--text-primary);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.download-cv:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(127, 90, 240, 0.3);
 } 
