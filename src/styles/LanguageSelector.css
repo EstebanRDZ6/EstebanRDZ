@@ -1,0 +1,16 @@
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.language-selector:hover {
+  background-color: #0056b3;
+} 
