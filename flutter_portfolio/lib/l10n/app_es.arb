@@ -1,0 +1,56 @@
+﻿{
+  "@@locale": "es",
+  "navHome": "Inicio",
+  "navAbout": "Sobre Mí",
+  "navSkills": "Habilidades",
+  "navProjects": "Portafolio",
+  "navContact": "Contacto",
+
+  "heroTitle": "Analista de Sistemas | Full-Stack Developer | Soluciones SaaS e IA",
+  "heroSubtitle": "Diseño y construyo plataformas SaaS escalables, dashboards de IA y sistemas de automatización empresarial.",
+  "heroViewProjects": "Ver Proyectos",
+  "heroContactMe": "Contáctame",
+
+  "aboutTitle": "Sobre Mí",
+  "aboutP1": "Soy Analista de Sistemas y Desarrollador Full-Stack enfocado en construir plataformas de software modernas para empresas.",
+  "aboutP2": "Mi experiencia incluye el desarrollo de sistemas backend escalables, plataformas SaaS, dashboards de IA y herramientas de automatización utilizando tecnologías como .NET, Python, Flutter, Docker y PostgreSQL.",
+  "aboutP3": "Me especializo en arquitectura backend, desarrollo de APIs, sistemas de bases de datos y flujos de trabajo de automatización, diseñando soluciones que mejoran la eficiencia empresarial y la gestión de datos.",
+  "aboutP4": "Además del desarrollo web y backend, también desarrollo lógica de videojuegos usando Godot Engine.",
+
+  "skillsTitle": "Habilidades y Tecnologías",
+  "catProgramming": "Lenguajes de Programación",
+  "catBackend": "Backend",
+  "catFrontend": "Frontend",
+  "catDatabases": "Bases de Datos",
+  "catDevops": "DevOps",
+  "catCloud": "Nube",
+
+  "projectsTitle": "Plataformas Destacadas",
+  "projectsExtraTitle": "Proyectos Adicionales",
+  "viewDemoBtn": "Ver Demo",
+  "viewGithub": "Ver GitHub",
+
+  "projEcommerceTitle": "Plataforma Ecommerce",
+  "projEcommerceDesc": "Interfaz de ecommerce responsiva que demuestra UI moderna y diseño de catálogo.",
+  "projDentalTitle": "Sitio Clínico Dental",
+  "projDentalDesc": "Sitio web profesional con estructura de servicios, precios y citas.",
+  "projRestoTitle": "Plataforma de Restaurante",
+  "projRestoDesc": "Sitio web moderno con menú digital, reservas e integración de pagos.",
+  "projCrmTitle": "Sistema CRM Empresarial",
+  "projCrmDesc": "Dashboard CRM diseñado para analíticas comerciales y gestión de clientes.",
+  "projSaasTitle": "Plataforma SaaS de Automatización",
+  "projSaasDesc": "SaaS de automatización de flujos de trabajo inspirado en herramientas como Zapier.",
+
+  "projStockTitle": "Control de Stock",
+  "projStockDesc": "Sistema completo de inventario con registro, DB SQL Server, código de barras y dashboard de reportes.",
+  "projUniTitle": "Proyectos Universitarios",
+  "projUniDesc": "Colección de proyectos académicos incluyendo apps web, C#/.NET y desarrollo extendido de bases de datos.",
+  "projForensicTitle": "Sistema de Análisis Forense",
+  "projForensicDesc": "Análisis de datos forenses con interfaz Python/Tkinter, visualización con Matplotlib y backend SQL Server.",
+
+  "contactTitle": "Contacto",
+  "contactEmail": "Correo",
+  "contactWhatsapp": "WhatsApp",
+  "contactLinkedin": "LinkedIn",
+  "contactGithub": "GitHub"
+}

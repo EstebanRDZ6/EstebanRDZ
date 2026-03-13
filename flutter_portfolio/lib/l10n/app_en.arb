@@ -1,0 +1,56 @@
+﻿{
+  "@@locale": "en",
+  "navHome": "Home",
+  "navAbout": "About Me",
+  "navSkills": "Skills",
+  "navProjects": "Portfolio",
+  "navContact": "Contact",
+
+  "heroTitle": "Systems Analyst | Full-Stack Developer | SaaS & AI Solutions",
+  "heroSubtitle": "I design and build scalable SaaS platforms, AI dashboards, and business automation systems.",
+  "heroViewProjects": "View Projects",
+  "heroContactMe": "Contact Me",
+
+  "aboutTitle": "About Me",
+  "aboutP1": "I am a Systems Analyst and Full-Stack Developer focused on building modern software platforms for businesses.",
+  "aboutP2": "My experience includes developing scalable backend systems, SaaS platforms, AI dashboards, and automation tools using technologies such as .NET, Python, Flutter, Docker, and PostgreSQL.",
+  "aboutP3": "I specialize in backend architecture, API development, database systems, and automation workflows, designing solutions that improve business efficiency and data management.",
+  "aboutP4": "Alongside web and backend development, I also develop game logic using the Godot Engine.",
+
+  "skillsTitle": "Skills & Technologies",
+  "catProgramming": "Programming Languages",
+  "catBackend": "Backend",
+  "catFrontend": "Frontend",
+  "catDatabases": "Databases",
+  "catDevops": "DevOps",
+  "catCloud": "Cloud",
+
+  "projectsTitle": "Featured Demo Platforms",
+  "projectsExtraTitle": "Additional Projects",
+  "viewDemoBtn": "View Live Demo",
+  "viewGithub": "View GitHub",
+
+  "projEcommerceTitle": "Modern Ecommerce Platform",
+  "projEcommerceDesc": "Responsive ecommerce interface demonstrating modern UI and product catalog design.",
+  "projDentalTitle": "Dental Clinic Website",
+  "projDentalDesc": "Professional clinic website with services, pricing and appointment structure.",
+  "projRestoTitle": "Restaurant / Bar Platform",
+  "projRestoDesc": "Modern restaurant website with digital menu, reservations and payment integration.",
+  "projCrmTitle": "Enterprise CRM System",
+  "projCrmDesc": "CRM dashboard designed for business analytics and customer management.",
+  "projSaasTitle": "SaaS Automation Platform",
+  "projSaasDesc": "Workflow automation platform inspired by tools like Zapier.",
+
+  "projStockTitle": "Stock Control System",
+  "projStockDesc": "Complete inventory management system including user registration, SQL Server DB, barcodes, and reports dashboard.",
+  "projUniTitle": "University Projects",
+  "projUniDesc": "Collection of academic projects including HTML/JS web apps, C#/.NET apps, and extended SQL databases.",
+  "projForensicTitle": "Forensic Analysis System",
+  "projForensicDesc": "Forensic data analysis GUI built in Python/Tkinter, data viz with Matplotlib, and SQL Server backend.",
+
+  "contactTitle": "Contact",
+  "contactEmail": "Email",
+  "contactWhatsapp": "WhatsApp",
+  "contactLinkedin": "LinkedIn",
+  "contactGithub": "GitHub"
+}
