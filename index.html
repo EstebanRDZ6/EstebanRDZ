@@ -12,12 +12,15 @@
     <nav class="navbar">
         <div class="nav-container">
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" data-i18n="nav-home">Home</a></li>
+                <li><a href="#about" data-i18n="nav-about">About me</a></li>
+                <li><a href="#skills" data-i18n="nav-skills">Skills</a></li>
+                <li><a href="#portfolio" data-i18n="nav-portfolio">Portfolio</a></li>
+                <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
             </ul>
+            <div class="lang-switch">
+                <button id="lang-toggle" class="lang-btn">EN / ES</button>
+            </div>
         </div>
     </nav>
 
@@ -25,171 +28,130 @@
         <div class="profile-container">
             <img src="FotoPerfil.jpg" alt="Esteban Rodriguez" class="profile-image">
             <h1>Esteban Rodriguez</h1>
-            <p class="title">Analyst in Computer Systems 💻</p>
-            <p class="subtitle">Developer Full Stack</p>
+            <p class="title" data-i18n="home-title">Analyst in Computer Systems 💻</p>
+            <p class="subtitle" data-i18n="home-subtitle">Developer Full Stack</p>
         </div>
     </section>
 
     <section id="about" class="about-section">
-        <h2>About Me</h2>
+        <h2 data-i18n="about-title">About Me</h2>
         <div class="about-content">
-            <p>I am a developer with a solid background in C# programming, specializing in the .NET ecosystem for creating robust, scalable, and efficient applications. I have extensive experience managing relational databases, including SQL Server and PostgreSQL, optimizing queries, designing efficient data schemas, and ensuring data integrity.</p>
+            <p data-i18n="about-p1">I am a systems analyst and full-stack developer specializing in building scalable business applications, SaaS platforms, and automation systems.</p>
             <br>
-            <p>In addition, I excel in integrating backend technologies with databases to guarantee the performance and scalability of business applications. My expertise also extends to data analysis, leveraging SQL and other tools to extract actionable insights, generate reports, and support strategic decision-making processes.</p>
+            <p data-i18n="about-p2">My primary expertise is in the .NET ecosystem with C#, where I develop robust backend systems and APIs. I also work extensively with Python using frameworks such as FastAPI to build modern web services and data-driven platforms.</p>
             <br>
-            <p>Beyond these core skills, I am proficient in developing and maintaining software systems, debugging complex applications, and implementing innovative solutions to meet business requirements. I have solid experience with HTML, CSS, JavaScript, and Node.js, as well as using GitHub for version control and collaboration. I am knowledgeable in methodologies like Scrum and various analysis techniques, including UML diagrams, sequence diagrams, domain models, use case diagrams, requirement gathering, and feasibility studies. Additionally, I have worked with Firebase for authentication and data management.</p>
+            <p data-i18n="about-p3">I have strong experience working with relational databases including SQL Server and PostgreSQL, designing optimized schemas, writing advanced queries, triggers, and automation logic to support enterprise-level applications.</p>
             <br>
-            <p>Currently, I'm expanding my knowledge by studying Android and cross-platform technologies, focusing on Flutter and React. I am also developing an application for my uncle, who is a lawyer, with the goal of creating a passive income stream in the future.</p>
+            <p data-i18n="about-p4">In addition, I build multiplatform interfaces using Flutter and Dart, allowing applications to run on web and mobile from a single codebase.</p>
             <br>
-            <p>On the professional side, I have been working since I was 9 years old and have gained valuable experience managing various responsibilities. I live in and manage a kiosk and convenience store, where I handle bills, invoices, and all the technology required for its administration—this work provides my daily livelihood. Additionally, while I am no longer officially employed in the window and door industry, I occasionally engage in sales of windows, which generates extra income.</p>
+            <p data-i18n="about-p5">My stack also includes Docker, Firebase, and modern cloud-ready architectures. I focus heavily on automation, system integration, and building tools that help businesses improve efficiency and decision-making.</p>
             <br>
-            <p>With all these experiences and my skill set, I firmly believe I am the best option for any company that decides to hire me. For the right salary, I can adapt to any situation, overcome challenges, and achieve any goal. Hiring me will be a decision you won't regret.</p>
+            <p data-i18n="about-p6">Beyond business software, I also develop game mechanics and gameplay systems using the Godot Engine.</p>
         </div>
     </section>
 
-    <section id="skills" class="skills-section">
-        <h2>Skills & Tools</h2>
+        <section id="skills" class="skills-section">
+        <h2 data-i18n="skills-core-title">Core Technologies</h2>
         <div class="skills-grid">
-            <div class="skill-item">
-                <i class="fab fa-microsoft"></i>
-                <span>C#</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-cpp"></i>
-                <span>C++</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-database"></i>
-                <span>SQL</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-server"></i>
-                <span>SQL SERVER</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-database"></i>
-                <span>PostgreSQL</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-windows"></i>
-                <span>.NET</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-windows"></i>
-                <span>ASP.NET CORE</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-flutter"></i>
-                <span>Flutter</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-android"></i>
-                <span>Android Studio</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-js"></i>
-                <span>TypeScript</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-git-alt"></i>
-                <span>Git</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-github"></i>
-                <span>Github</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-fire"></i>
-                <span>Firebase</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-css3-alt"></i>
-                <span>CSS</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-html5"></i>
-                <span>HTML</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-project-diagram"></i>
-                <span>StarUML</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-code"></i>
-                <span>Dart</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-terminal"></i>
-                <span>Cursor</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-database"></i>
-                <span>IderaStudio</span>
-            </div>
-            <div class="skill-item">
-                <i class="fab fa-python"></i>
-                <span>Python</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-table"></i>
-                <span>Pandas</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-chart-line"></i>
-                <span>Matplotlib</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-chart-bar"></i>
-                <span>Seaborn</span>
-            </div>
-            <div class="skill-item">
-                <i class="fas fa-map-marked-alt"></i>
-                <span>Folium</span>
-            </div>
+            <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+            <div class="skill-item"><i class="fas fa-bolt"></i><span>FastAPI & Python Frameworks</span></div>
+            <div class="skill-item"><i class="fab fa-microsoft"></i><span>C# & .NET</span></div>
+            <div class="skill-item"><i class="fab fa-flutter"></i><span>Flutter & Dart</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>PostgreSQL</span></div>
+            <div class="skill-item"><i class="fas fa-server"></i><span>SQL Server</span></div>
+            <div class="skill-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+            <div class="skill-item"><i class="fas fa-fire"></i><span>Firebase</span></div>
+            <div class="skill-item"><i class="fas fa-network-wired"></i><span>REST APIs</span></div>
+            <div class="skill-item"><i class="fas fa-cogs"></i><span>Automation Systems</span></div>
         </div>
 
-        <h3 class="skills-subtitle">Methodologies and Analysis</h3>
+        <h3 class="skills-subtitle" data-i18n="skills-game-title">Game Development</h3>
+        <p class="skills-text" data-i18n="skills-game-desc" style="text-align: center; color: var(--text-color); margin-bottom: 2rem;">I also develop game mechanics and gameplay logic using the Godot Engine.</p>
+
+        <h3 class="skills-subtitle" data-i18n="skills-methods-title">Methodologies and Analysis</h3>
         <div class="methodology-grid">
-            <div class="methodology-item">
-                <i class="fas fa-sitemap"></i>
-                <span>Use Case Diagrams</span>
-            </div>
-            <div class="methodology-item">
-                <i class="fas fa-clipboard-list"></i>
-                <span>Requirements Gathering</span>
-            </div>
-            <div class="methodology-item">
-                <i class="fas fa-tasks"></i>
-                <span>System Requirements</span>
-            </div>
-            <div class="methodology-item">
-                <i class="fas fa-project-diagram"></i>
-                <span>UML</span>
-            </div>
-            <div class="methodology-item">
-                <i class="fas fa-chart-network"></i>
-                <span>Sequence Diagrams</span>
-            </div>
-            <div class="methodology-item">
-                <i class="fas fa-sitemap"></i>
-                <span>Domain Model</span>
-            </div>
-            <div class="methodology-item">
-                <i class="fas fa-check-double"></i>
-                <span>Feasibility Study</span>
-            </div>
-            <div class="methodology-item">
-                <i class="fas fa-users-cog"></i>
-                <span>Scrum</span>
-            </div>
+            <div class="methodology-item"><i class="fas fa-sitemap"></i><span>Architecture & UML</span></div>
+            <div class="methodology-item"><i class="fas fa-database"></i><span>Data Modeling</span></div>
+            <div class="methodology-item"><i class="fas fa-users-cog"></i><span>Agile / Scrum</span></div>
+            <div class="methodology-item"><i class="fas fa-check-double"></i><span>System Design</span></div>
         </div>
     </section>
 
     <section id="portfolio" class="portfolio-section">
-        <h2>Portfolio</h2>
+        <h2 data-i18n="portfolio-title">Portfolio</h2>
+
+        <h2 data-i18n="featured-demos-title">Featured Software Demos</h2>
+        <div class="demos-grid">
+            <!-- Webmoderna -->
+            <div class="demo-card">
+                <div class="demo-content">
+                    <h3 data-i18n="demo1-title">Webmoderna Ecommerce Demo</h3>
+                    <p data-i18n="demo1-desc">A complete modern e-commerce solution with sleek UI and robust business logic.</p>
+                    <div class="demo-tags">
+                        <span>Web Moderno</span>
+                        <span>SaaS Architecture</span>
+                        <span>UI/UX</span>
+                    </div>
+                    <a href="https://estebanrdz6.github.io/webmoderna-demo/" target="_blank" class="demo-btn" data-i18n="demo-btn">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Dental Clinic -->
+            <div class="demo-card">
+                <div class="demo-content">
+                    <h3 data-i18n="demo2-title">Dental Clinic Demo</h3>
+                    <p data-i18n="demo2-desc">A specialized management system for dental clinics with appointment scheduling.</p>
+                    <div class="demo-tags">
+                        <span>Healthcare</span>
+                        <span>Business Systems</span>
+                    </div>
+                    <a href="https://estebanrdz6.github.io/dental-clinic-demo/" target="_blank" class="demo-btn" data-i18n="demo-btn">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Restaurant / Bar -->
+            <div class="demo-card">
+                <div class="demo-content">
+                    <h3 data-i18n="demo3-title">Restaurant / Bar Demo</h3>
+                    <p data-i18n="demo3-desc">A digital menu and order management platform for restaurants and bars.</p>
+                    <div class="demo-tags">
+                        <span>Hospitality</span>
+                        <span>UI/UX</span>
+                    </div>
+                    <a href="https://estebanrdz6.github.io/resto-bar-demo/" target="_blank" class="demo-btn" data-i18n="demo-btn">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Enterprise CRM -->
+            <div class="demo-card">
+                <div class="demo-content">
+                    <h3 data-i18n="demo4-title">Enterprise CRM Demo</h3>
+                    <p data-i18n="demo4-desc">Customer relationship management dashboard for enterprise analytics and tracking.</p>
+                    <div class="demo-tags">
+                        <span>CRM</span>
+                        <span>Data Analytics</span>
+                        <span>SaaS</span>
+                    </div>
+                    <a href="https://estebanrdz6.github.io/crm-enterprise-demo/" target="_blank" class="demo-btn" data-i18n="demo-btn">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Automation SaaS -->
+            <div class="demo-card">
+                <div class="demo-content">
+                    <h3 data-i18n="demo5-title">Automation SaaS Demo</h3>
+                    <p data-i18n="demo5-desc">An automation platform designed to streamline business workflows.</p>
+                    <div class="demo-tags">
+                        <span>Automation</span>
+                        <span>SaaS Architecture</span>
+                        <span>Business Systems</span>
+                    </div>
+                    <a href="https://estebanrdz6.github.io/automation-saas-demo/" target="_blank" class="demo-btn" data-i18n="demo-btn">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
         
         <div class="project-card">
-            <h3>Stock Control System</h3>
+            <h3 data-i18n="proj1-title">Stock Control System</h3>
             <div class="project-content">
                 <div class="project-description">
                     <p>Complete inventory management system that includes:</p>
@@ -215,7 +177,7 @@
         </div>
 
         <div class="project-card">
-            <h3>University Projects</h3>
+            <h3 data-i18n="proj2-title">University Projects</h3>
             <div class="project-content">
                 <div class="project-description">
                     <p>Collection of projects developed during my university education, where I implemented various technologies and concepts:</p>
@@ -236,7 +198,7 @@
         </div>
 
         <div class="project-card">
-            <h3>Interactive Forensic Analysis System with SQL Server and Python</h3>
+            <h3 data-i18n="proj3-title">Interactive Forensic Analysis System with SQL Server and Python</h3>
             <div class="project-content">
                 <div class="project-description">
                     <p>A comprehensive forensic data analysis system that integrates:</p>
@@ -328,5 +290,6 @@
             stockPhotosContainer.appendChild(img);
         });
     </script>
+    <script src="script.js"></script>
 </body>
 </html> 
