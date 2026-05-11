@@ -37,6 +37,7 @@ class _ProjectCardState extends State<ProjectCard> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
+    final hasImages = widget.images != null && widget.images!.isNotEmpty;
 
     return MouseRegion(
       onEnter: (_) => setState(() => _isHovered = true),
@@ -45,6 +46,7 @@ class _ProjectCardState extends State<ProjectCard> {
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeOut,
         width: 380,
+        height: hasImages ? 560 : 420,
         margin: const EdgeInsets.all(16),
         padding: const EdgeInsets.all(24),
         decoration: BoxDecoration(
@@ -75,7 +77,7 @@ class _ProjectCardState extends State<ProjectCard> {
         transform: Matrix4.translationValues(0, _isHovered ? -5 : 0, 0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min,
+          mainAxisSize: MainAxisSize.max,
           children: [
             Container(
               padding: const EdgeInsets.all(12),
@@ -103,7 +105,7 @@ class _ProjectCardState extends State<ProjectCard> {
                 height: 1.5,
               ),
             ),
-            if (widget.images != null && widget.images!.isNotEmpty) ...[
+            if (hasImages) ...[
               const SizedBox(height: 16),
               SizedBox(
                 height: 80,
@@ -169,6 +171,7 @@ class _ProjectCardState extends State<ProjectCard> {
                 ),
               ),
             ],
+            const Spacer(),
             const SizedBox(height: 24),
             Row(
               children: [

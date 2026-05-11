@@ -24,12 +24,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navContact => 'Contact';
 
   @override
-  String get heroTitle =>
-      'Systems Analyst | Full-Stack Developer | SaaS & AI Solutions';
+  String get heroTitle => 'Full Stack Developer | Backend Specialist';
 
   @override
   String get heroSubtitle =>
-      'I design and build scalable SaaS platforms, AI dashboards, and business automation systems.';
+      'Backend and Full-Stack Developer specialized in SaaS platforms, backend architectures, and cloud-ready business systems.';
 
   @override
   String get heroViewProjects => 'View Projects';
@@ -38,23 +37,26 @@ class AppLocalizationsEn extends AppLocalizations {
   String get heroContactMe => 'Contact Me';
 
   @override
+  String get heroDownloadCv => 'Download CV';
+
+  @override
   String get aboutTitle => 'About Me';
 
   @override
   String get aboutP1 =>
-      'I am a Systems Analyst and Full-Stack Developer focused on building modern software platforms for businesses.';
+      'Backend and Full-Stack Developer specialized in SaaS platforms, backend architectures, and cloud-ready business systems.';
 
   @override
   String get aboutP2 =>
-      'My experience includes developing scalable backend systems, SaaS platforms, AI dashboards, and automation tools using technologies such as .NET, Python, Flutter, Docker, and PostgreSQL.';
+      'Experienced in building scalable APIs, automation platforms, administrative dashboards, and enterprise applications using Python, FastAPI, C#, .NET, Flutter, and PostgreSQL.';
 
   @override
   String get aboutP3 =>
-      'I specialize in backend architecture, API development, database systems, and automation workflows, designing solutions that improve business efficiency and data management.';
+      'Strong background in database architecture, authentication systems, payment integrations, Dockerized environments, and real-time business workflows.';
 
   @override
   String get aboutP4 =>
-      'Alongside web and backend development, I also develop game logic using the Godot Engine.';
+      'Focused on designing modern software solutions that improve operational efficiency, automate processes, and scale reliably in production environments.';
 
   @override
   String get skillsTitle => 'Skills & Technologies';
@@ -78,10 +80,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get catCloud => 'Cloud';
 
   @override
-  String get projectsTitle => 'Featured Demo Platforms';
+  String get projectsTitle => 'Projects';
 
   @override
-  String get projectsExtraTitle => 'Additional Projects';
+  String get projectsExtraTitle => 'Live Demos';
 
   @override
   String get viewDemoBtn => 'View Live Demo';
@@ -123,6 +125,20 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get projSaasDesc =>
       'Workflow automation platform inspired by tools like Zapier.';
+
+  @override
+  String get projAberturasTitle => 'Aberturas Bros Ecommerce';
+
+  @override
+  String get projAberturasDesc =>
+      'Ecommerce platform for a showroom business with product catalog, shopping flow, and responsive storefront experience.';
+
+  @override
+  String get projEmilyTitle => 'Emily Showroom Clothing Store';
+
+  @override
+  String get projEmilyDesc =>
+      'Clothing store project focused on modern showroom presentation and user-friendly ecommerce navigation.';
 
   @override
   String get projStockTitle => 'Stock Control System';

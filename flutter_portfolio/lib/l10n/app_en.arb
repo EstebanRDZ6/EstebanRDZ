@@ -6,16 +6,17 @@
   "navProjects": "Portfolio",
   "navContact": "Contact",
 
-  "heroTitle": "Systems Analyst | Full-Stack Developer | SaaS & AI Solutions",
-  "heroSubtitle": "I design and build scalable SaaS platforms, AI dashboards, and business automation systems.",
+  "heroTitle": "Full Stack Developer | Backend Specialist",
+  "heroSubtitle": "Backend and Full-Stack Developer specialized in SaaS platforms, backend architectures, and cloud-ready business systems.",
   "heroViewProjects": "View Projects",
   "heroContactMe": "Contact Me",
+  "heroDownloadCv": "Download CV",
 
   "aboutTitle": "About Me",
-  "aboutP1": "I am a Systems Analyst and Full-Stack Developer focused on building modern software platforms for businesses.",
-  "aboutP2": "My experience includes developing scalable backend systems, SaaS platforms, AI dashboards, and automation tools using technologies such as .NET, Python, Flutter, Docker, and PostgreSQL.",
-  "aboutP3": "I specialize in backend architecture, API development, database systems, and automation workflows, designing solutions that improve business efficiency and data management.",
-  "aboutP4": "Alongside web and backend development, I also develop game logic using the Godot Engine.",
+  "aboutP1": "Backend and Full-Stack Developer specialized in SaaS platforms, backend architectures, and cloud-ready business systems.",
+  "aboutP2": "Experienced in building scalable APIs, automation platforms, administrative dashboards, and enterprise applications using Python, FastAPI, C#, .NET, Flutter, and PostgreSQL.",
+  "aboutP3": "Strong background in database architecture, authentication systems, payment integrations, Dockerized environments, and real-time business workflows.",
+  "aboutP4": "Focused on designing modern software solutions that improve operational efficiency, automate processes, and scale reliably in production environments.",
 
   "skillsTitle": "Skills & Technologies",
   "catProgramming": "Programming Languages",
@@ -25,8 +26,8 @@
   "catDevops": "DevOps",
   "catCloud": "Cloud",
 
-  "projectsTitle": "Featured Demo Platforms",
-  "projectsExtraTitle": "Additional Projects",
+  "projectsTitle": "Projects",
+  "projectsExtraTitle": "Live Demos",
   "viewDemoBtn": "View Live Demo",
   "viewGithub": "View GitHub",
 
@@ -40,6 +41,11 @@
   "projCrmDesc": "CRM dashboard designed for business analytics and customer management.",
   "projSaasTitle": "SaaS Automation Platform",
   "projSaasDesc": "Workflow automation platform inspired by tools like Zapier.",
+
+  "projAberturasTitle": "Aberturas Bros Ecommerce",
+  "projAberturasDesc": "Ecommerce platform for a showroom business with product catalog, shopping flow, and responsive storefront experience.",
+  "projEmilyTitle": "Emily Showroom Clothing Store",
+  "projEmilyDesc": "Clothing store project focused on modern showroom presentation and user-friendly ecommerce navigation.",
 
   "projStockTitle": "Stock Control System",
   "projStockDesc": "Complete inventory management system including user registration, SQL Server DB, barcodes, and reports dashboard.",

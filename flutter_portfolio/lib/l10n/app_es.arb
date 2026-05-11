@@ -6,16 +6,17 @@
   "navProjects": "Portafolio",
   "navContact": "Contacto",
 
-  "heroTitle": "Analista de Sistemas | Full-Stack Developer | Soluciones SaaS e IA",
-  "heroSubtitle": "Diseño y construyo plataformas SaaS escalables, dashboards de IA y sistemas de automatización empresarial.",
+  "heroTitle": "Full Stack Developer | Especialista Backend",
+  "heroSubtitle": "Desarrollador Backend y Full-Stack especializado en plataformas SaaS, arquitecturas backend y sistemas empresariales listos para la nube.",
   "heroViewProjects": "Ver Proyectos",
   "heroContactMe": "Contáctame",
+  "heroDownloadCv": "Descargar CV",
 
   "aboutTitle": "Sobre Mí",
-  "aboutP1": "Soy Analista de Sistemas y Desarrollador Full-Stack enfocado en construir plataformas de software modernas para empresas.",
-  "aboutP2": "Mi experiencia incluye el desarrollo de sistemas backend escalables, plataformas SaaS, dashboards de IA y herramientas de automatización utilizando tecnologías como .NET, Python, Flutter, Docker y PostgreSQL.",
-  "aboutP3": "Me especializo en arquitectura backend, desarrollo de APIs, sistemas de bases de datos y flujos de trabajo de automatización, diseñando soluciones que mejoran la eficiencia empresarial y la gestión de datos.",
-  "aboutP4": "Además del desarrollo web y backend, también desarrollo lógica de videojuegos usando Godot Engine.",
+  "aboutP1": "Desarrollador Backend y Full-Stack especializado en plataformas SaaS, arquitecturas backend y sistemas empresariales listos para la nube.",
+  "aboutP2": "Con experiencia en la construcción de APIs escalables, plataformas de automatización, dashboards administrativos y aplicaciones empresariales usando Python, FastAPI, C#, .NET, Flutter y PostgreSQL.",
+  "aboutP3": "Fuerte base en arquitectura de bases de datos, sistemas de autenticación, integraciones de pagos, entornos con Docker y flujos de trabajo empresariales en tiempo real.",
+  "aboutP4": "Enfocado en diseñar soluciones de software modernas que mejoren la eficiencia operativa, automaticen procesos y escalen de forma confiable en producción.",
 
   "skillsTitle": "Habilidades y Tecnologías",
   "catProgramming": "Lenguajes de Programación",
@@ -25,8 +26,8 @@
   "catDevops": "DevOps",
   "catCloud": "Nube",
 
-  "projectsTitle": "Plataformas Destacadas",
-  "projectsExtraTitle": "Proyectos Adicionales",
+  "projectsTitle": "Proyectos",
+  "projectsExtraTitle": "Demos en Vivo",
   "viewDemoBtn": "Ver Demo",
   "viewGithub": "Ver GitHub",
 
@@ -40,6 +41,11 @@
   "projCrmDesc": "Dashboard CRM diseñado para analíticas comerciales y gestión de clientes.",
   "projSaasTitle": "Plataforma SaaS de Automatización",
   "projSaasDesc": "SaaS de automatización de flujos de trabajo inspirado en herramientas como Zapier.",
+
+  "projAberturasTitle": "Aberturas Bros Ecommerce",
+  "projAberturasDesc": "Plataforma ecommerce para showroom con catálogo de productos, flujo de compra y experiencia responsive.",
+  "projEmilyTitle": "Emily Showroom Clothing Store",
+  "projEmilyDesc": "Proyecto de tienda de ropa enfocado en una presentación moderna del showroom y navegación ecommerce amigable.",
 
   "projStockTitle": "Control de Stock",
   "projStockDesc": "Sistema completo de inventario con registro, DB SQL Server, código de barras y dashboard de reportes.",

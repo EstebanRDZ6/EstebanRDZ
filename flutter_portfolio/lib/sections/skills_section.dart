@@ -13,51 +13,44 @@ class SkillsSection extends StatelessWidget {
     final categories = [
       _SkillCategory(
         title: l10n.catProgramming,
-        skills: ['C', 'C++', 'C#', 'Python', 'Dart', 'Java'],
+        skills: ['Python', 'C#', 'Dart', 'JavaScript', 'TypeScript', 'HTML'],
       ),
       _SkillCategory(
         title: l10n.catBackend,
         skills: [
+          'FastAPI',
+          '.NET Framework',
           '.NET',
           'ASP.NET Core',
-          'FastAPI',
-          'Node.js',
-          'Express.js',
-          'Django',
-          'Spring Boot',
+          'REST APIs',
+          'SQLAlchemy',
+          'JWT Authentication',
+          'WebSockets',
         ],
       ),
       _SkillCategory(
         title: l10n.catFrontend,
-        skills: ['React', 'Next.js', 'Angular', 'Vue'],
+        skills: ['Flutter', 'Dart', 'JavaScript', 'TypeScript', 'HTML'],
       ),
       _SkillCategory(
         title: l10n.catDatabases,
         skills: [
           'PostgreSQL',
-          'SQL Server',
-          'MySQL',
-          'SQLite',
-          'Firebase',
-          'Supabase',
-          'MongoDB',
+          'Microsoft SQL Server',
+          'SQL',
+          'Database Design',
+          'ETL Pipelines',
+          'Alembic Migrations',
           'Redis',
         ],
       ),
       _SkillCategory(
         title: l10n.catDevops,
-        skills: ['Docker', 'Kubernetes', 'Terraform', 'Git', 'Linux'],
+        skills: ['Docker', 'Docker Compose', 'Redis', 'Linux', 'Git', 'GitHub'],
       ),
       _SkillCategory(
         title: l10n.catCloud,
-        skills: [
-          'AWS',
-          'Google Cloud',
-          'Azure',
-          'DigitalOcean',
-          'Hetzner',
-          'Cloudflare',
-        ],
+        skills: ['Firebase', 'Cloud-ready Architecture'],
       ),
     ];
 

@@ -131,13 +131,13 @@ abstract class AppLocalizations {
   /// No description provided for @heroTitle.
   ///
   /// In en, this message translates to:
-  /// **'Systems Analyst | Full-Stack Developer | SaaS & AI Solutions'**
+  /// **'Full Stack Developer | Backend Specialist'**
   String get heroTitle;
 
   /// No description provided for @heroSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'I design and build scalable SaaS platforms, AI dashboards, and business automation systems.'**
+  /// **'Backend and Full-Stack Developer specialized in SaaS platforms, backend architectures, and cloud-ready business systems.'**
   String get heroSubtitle;
 
   /// No description provided for @heroViewProjects.
@@ -152,6 +152,12 @@ abstract class AppLocalizations {
   /// **'Contact Me'**
   String get heroContactMe;
 
+  /// No description provided for @heroDownloadCv.
+  ///
+  /// In en, this message translates to:
+  /// **'Download CV'**
+  String get heroDownloadCv;
+
   /// No description provided for @aboutTitle.
   ///
   /// In en, this message translates to:
@@ -161,25 +167,25 @@ abstract class AppLocalizations {
   /// No description provided for @aboutP1.
   ///
   /// In en, this message translates to:
-  /// **'I am a Systems Analyst and Full-Stack Developer focused on building modern software platforms for businesses.'**
+  /// **'Backend and Full-Stack Developer specialized in SaaS platforms, backend architectures, and cloud-ready business systems.'**
   String get aboutP1;
 
   /// No description provided for @aboutP2.
   ///
   /// In en, this message translates to:
-  /// **'My experience includes developing scalable backend systems, SaaS platforms, AI dashboards, and automation tools using technologies such as .NET, Python, Flutter, Docker, and PostgreSQL.'**
+  /// **'Experienced in building scalable APIs, automation platforms, administrative dashboards, and enterprise applications using Python, FastAPI, C#, .NET, Flutter, and PostgreSQL.'**
   String get aboutP2;
 
   /// No description provided for @aboutP3.
   ///
   /// In en, this message translates to:
-  /// **'I specialize in backend architecture, API development, database systems, and automation workflows, designing solutions that improve business efficiency and data management.'**
+  /// **'Strong background in database architecture, authentication systems, payment integrations, Dockerized environments, and real-time business workflows.'**
   String get aboutP3;
 
   /// No description provided for @aboutP4.
   ///
   /// In en, this message translates to:
-  /// **'Alongside web and backend development, I also develop game logic using the Godot Engine.'**
+  /// **'Focused on designing modern software solutions that improve operational efficiency, automate processes, and scale reliably in production environments.'**
   String get aboutP4;
 
   /// No description provided for @skillsTitle.
@@ -227,13 +233,13 @@ abstract class AppLocalizations {
   /// No description provided for @projectsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Featured Demo Platforms'**
+  /// **'Projects'**
   String get projectsTitle;
 
   /// No description provided for @projectsExtraTitle.
   ///
   /// In en, this message translates to:
-  /// **'Additional Projects'**
+  /// **'Live Demos'**
   String get projectsExtraTitle;
 
   /// No description provided for @viewDemoBtn.
@@ -307,6 +313,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Workflow automation platform inspired by tools like Zapier.'**
   String get projSaasDesc;
+
+  /// No description provided for @projAberturasTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Aberturas Bros Ecommerce'**
+  String get projAberturasTitle;
+
+  /// No description provided for @projAberturasDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Ecommerce platform for a showroom business with product catalog, shopping flow, and responsive storefront experience.'**
+  String get projAberturasDesc;
+
+  /// No description provided for @projEmilyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Emily Showroom Clothing Store'**
+  String get projEmilyTitle;
+
+  /// No description provided for @projEmilyDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Clothing store project focused on modern showroom presentation and user-friendly ecommerce navigation.'**
+  String get projEmilyDesc;
 
   /// No description provided for @projStockTitle.
   ///

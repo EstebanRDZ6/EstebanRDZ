@@ -20,6 +20,13 @@ class HeroSection extends StatelessWidget {
     }
   }
 
+  void _downloadCv() async {
+    final uri = Uri.parse('assets/assets/docs/CV-EstebanRodriguezRDZ.pdf');
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
@@ -118,6 +125,11 @@ class HeroSection extends StatelessWidget {
                       onPressed: onContactMe,
                       outlined: true,
                       child: Text(l10n.heroContactMe),
+                    ),
+                    HoverButton(
+                      onPressed: _downloadCv,
+                      outlined: true,
+                      child: Text(l10n.heroDownloadCv),
                     ),
                     IconButton(
                       icon: const Icon(Icons.code),

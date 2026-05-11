@@ -44,45 +44,31 @@ class ProjectsSection extends StatelessWidget {
               alignment: WrapAlignment.center,
               children: [
                 ProjectCard(
-                  title: l10n.projEcommerceTitle,
-                  description: l10n.projEcommerceDesc,
-                  liveLink: 'https://estebanrdz6.github.io/webmoderna-demo/',
+                  title: l10n.projAberturasTitle,
+                  description: l10n.projAberturasDesc,
+                  githubLink:
+                      'https://github.com/EstebanRDZ6/Aberturas-Bros-Ecommerce',
+                  images: const [
+                    'assets/aberturas_bros/1.jpg',
+                    'assets/aberturas_bros/2.jpg',
+                    'assets/aberturas_bros/3.jpg',
+                    'assets/aberturas_bros/4.jpg',
+                    'assets/aberturas_bros/5.jpg',
+                    'assets/aberturas_bros/6.jpg',
+                    'assets/aberturas_bros/7.jpg',
+                    'assets/aberturas_bros/8.jpg',
+                    'assets/aberturas_bros/9.jpg',
+                    'assets/aberturas_bros/10.jpg',
+                    'assets/aberturas_bros/11.jpg',
+                    'assets/aberturas_bros/Pedidos2.jpg',
+                  ],
                 ),
                 ProjectCard(
-                  title: l10n.projDentalTitle,
-                  description: l10n.projDentalDesc,
-                  liveLink: 'https://estebanrdz6.github.io/dental-clinic-demo/',
+                  title: l10n.projEmilyTitle,
+                  description: l10n.projEmilyDesc,
+                  githubLink:
+                      'https://github.com/EstebanRDZ6/EmilyShowroom-clothing-store',
                 ),
-                ProjectCard(
-                  title: l10n.projRestoTitle,
-                  description: l10n.projRestoDesc,
-                  liveLink: 'https://estebanrdz6.github.io/resto-bar-demo/',
-                ),
-                ProjectCard(
-                  title: l10n.projCrmTitle,
-                  description: l10n.projCrmDesc,
-                  liveLink:
-                      'https://estebanrdz6.github.io/crm-enterprise-demo/',
-                ),
-                ProjectCard(
-                  title: l10n.projSaasTitle,
-                  description: l10n.projSaasDesc,
-                  liveLink:
-                      'https://estebanrdz6.github.io/automation-saas-demo/',
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 80),
-          Text(
-            l10n.projectsExtraTitle,
-            style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 40),
-          Center(
-            child: Wrap(
-              alignment: WrapAlignment.center,
-              children: [
                 ProjectCard(
                   title: l10n.projStockTitle,
                   description: l10n.projStockDesc,
@@ -114,6 +100,46 @@ class ProjectsSection extends StatelessWidget {
                     'assets/forensic/2f.jpg',
                     'assets/forensic/3f.jpg',
                   ],
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 80),
+          Text(
+            l10n.projectsExtraTitle,
+            style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(height: 40),
+          Center(
+            child: Wrap(
+              alignment: WrapAlignment.center,
+              children: [
+                ProjectCard(
+                  title: l10n.projEcommerceTitle,
+                  description: l10n.projEcommerceDesc,
+                  liveLink: 'https://estebanrdz6.github.io/webmoderna-demo/',
+                ),
+                ProjectCard(
+                  title: l10n.projDentalTitle,
+                  description: l10n.projDentalDesc,
+                  liveLink: 'https://estebanrdz6.github.io/dental-clinic-demo/',
+                ),
+                ProjectCard(
+                  title: l10n.projRestoTitle,
+                  description: l10n.projRestoDesc,
+                  liveLink: 'https://estebanrdz6.github.io/resto-bar-demo/',
+                ),
+                ProjectCard(
+                  title: l10n.projCrmTitle,
+                  description: l10n.projCrmDesc,
+                  liveLink:
+                      'https://estebanrdz6.github.io/crm-enterprise-demo/',
+                ),
+                ProjectCard(
+                  title: l10n.projSaasTitle,
+                  description: l10n.projSaasDesc,
+                  liveLink:
+                      'https://estebanrdz6.github.io/automation-saas-demo/',
                 ),
               ],
             ),

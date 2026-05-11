@@ -24,12 +24,11 @@ class AppLocalizationsEs extends AppLocalizations {
   String get navContact => 'Contacto';
 
   @override
-  String get heroTitle =>
-      'Analista de Sistemas | Full-Stack Developer | Soluciones SaaS e IA';
+  String get heroTitle => 'Full Stack Developer | Especialista Backend';
 
   @override
   String get heroSubtitle =>
-      'Diseño y construyo plataformas SaaS escalables, dashboards de IA y sistemas de automatización empresarial.';
+      'Desarrollador Backend y Full-Stack especializado en plataformas SaaS, arquitecturas backend y sistemas empresariales listos para la nube.';
 
   @override
   String get heroViewProjects => 'Ver Proyectos';
@@ -38,23 +37,26 @@ class AppLocalizationsEs extends AppLocalizations {
   String get heroContactMe => 'Contáctame';
 
   @override
+  String get heroDownloadCv => 'Descargar CV';
+
+  @override
   String get aboutTitle => 'Sobre Mí';
 
   @override
   String get aboutP1 =>
-      'Soy Analista de Sistemas y Desarrollador Full-Stack enfocado en construir plataformas de software modernas para empresas.';
+      'Desarrollador Backend y Full-Stack especializado en plataformas SaaS, arquitecturas backend y sistemas empresariales listos para la nube.';
 
   @override
   String get aboutP2 =>
-      'Mi experiencia incluye el desarrollo de sistemas backend escalables, plataformas SaaS, dashboards de IA y herramientas de automatización utilizando tecnologías como .NET, Python, Flutter, Docker y PostgreSQL.';
+      'Con experiencia en la construcción de APIs escalables, plataformas de automatización, dashboards administrativos y aplicaciones empresariales usando Python, FastAPI, C#, .NET, Flutter y PostgreSQL.';
 
   @override
   String get aboutP3 =>
-      'Me especializo en arquitectura backend, desarrollo de APIs, sistemas de bases de datos y flujos de trabajo de automatización, diseñando soluciones que mejoran la eficiencia empresarial y la gestión de datos.';
+      'Fuerte base en arquitectura de bases de datos, sistemas de autenticación, integraciones de pagos, entornos con Docker y flujos de trabajo empresariales en tiempo real.';
 
   @override
   String get aboutP4 =>
-      'Además del desarrollo web y backend, también desarrollo lógica de videojuegos usando Godot Engine.';
+      'Enfocado en diseñar soluciones de software modernas que mejoren la eficiencia operativa, automaticen procesos y escalen de forma confiable en producción.';
 
   @override
   String get skillsTitle => 'Habilidades y Tecnologías';
@@ -78,10 +80,10 @@ class AppLocalizationsEs extends AppLocalizations {
   String get catCloud => 'Nube';
 
   @override
-  String get projectsTitle => 'Plataformas Destacadas';
+  String get projectsTitle => 'Proyectos';
 
   @override
-  String get projectsExtraTitle => 'Proyectos Adicionales';
+  String get projectsExtraTitle => 'Demos en Vivo';
 
   @override
   String get viewDemoBtn => 'Ver Demo';
@@ -123,6 +125,20 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get projSaasDesc =>
       'SaaS de automatización de flujos de trabajo inspirado en herramientas como Zapier.';
+
+  @override
+  String get projAberturasTitle => 'Aberturas Bros Ecommerce';
+
+  @override
+  String get projAberturasDesc =>
+      'Plataforma ecommerce para showroom con catálogo de productos, flujo de compra y experiencia responsive.';
+
+  @override
+  String get projEmilyTitle => 'Emily Showroom Clothing Store';
+
+  @override
+  String get projEmilyDesc =>
+      'Proyecto de tienda de ropa enfocado en una presentación moderna del showroom y navegación ecommerce amigable.';
 
   @override
   String get projStockTitle => 'Control de Stock';
